@@ -5,13 +5,12 @@ header {
 
 }
 
-/*body {
-    background: url('../imgs/panda.png');
+body {
+    background: url('../imgs/background.jpg');
     background-repeat: no-repeat;
-	background-size: 40%;
-	background-position: 115% -50%;
+    background-size: cover;
 }
-*/
+
 .nav {
 	position: relative;
 }
