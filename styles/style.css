@@ -4,13 +4,13 @@ header {
 	justify-content: center;
 
 }
-
+/*
 body {
     background: url('../imgs/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+*/
 .nav {
 	position: relative;
 }
