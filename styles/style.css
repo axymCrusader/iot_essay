@@ -1,9 +1,23 @@
 header {
+	font-family: "Arial", sans-serif;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 
 }
+
+.text-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20vh;
+}
+  
+.centered {
+	font-family: "Arial", sans-serif;
+	text-align: center;
+}
+
 /*
 body {
     background: url('../imgs/background.jpg');
@@ -11,6 +25,40 @@ body {
     background-size: cover;
 }
 */
+.text-author{
+	font-family: "Arial", sans-serif;
+	border: 1px solid #ccc;
+	padding: 20px;
+	text-align: center;
+	max-width: 600px;
+	margin: 0 auto;
+}
+.text-lit{
+	font-family: "Arial", sans-serif;
+	border: 1px solid #ccc;
+	padding: 10px;
+	text-indent: 1.5em;
+	text-align: justify;
+	max-width: 900px;
+	margin: 0 auto;
+
+}
+.text-main {
+	font-family: "Arial", sans-serif;
+	border: 1px solid #ccc;
+	padding: 20px;
+	line-height: 35px;
+	text-indent: 1.5em;
+	text-align: justify;
+	max-width: 600px;
+	margin: 0 auto;
+  }
+  
+.text {
+	font-size: 16px;
+  }
+
+
 .nav {
 	position: relative;
 }
@@ -37,12 +85,13 @@ body {
 }
 
 .nav__link {
-	font-family: system-ui;
+	font-family: "Arial", sans-serif;
 	text-decoration: none;
 	color: #000;
 }
 
 footer {
+	font-family: "Arial", sans-serif;
 	position: absolute;
     bottom: 0;
     right: 0;
